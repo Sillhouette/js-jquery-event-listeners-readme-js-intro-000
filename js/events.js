@@ -10,6 +10,15 @@ function frameIt(){
     $('img').class=tasty;
   })
 }
+
+function pressIt(){
+  $(input).on('keydown', function(key) {
+    if(key.which == 71){
+      alert('g was pressed')
+    }
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
