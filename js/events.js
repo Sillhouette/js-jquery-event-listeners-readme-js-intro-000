@@ -5,6 +5,11 @@ function getIt() {
   })
 }
 
+function frameIt(){
+  $('img').on('load', function() {
+    $('img').class = tasty;
+  })
+}
 $(document).ready(function(){
 
 // call functions here
