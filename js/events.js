@@ -7,7 +7,7 @@ function getIt() {
 
 function frameIt(){
   $('img').on('load', function() {
-    $('img').tasty;
+    tasty;
   })
 }
 $(document).ready(function(){
